@@ -29,7 +29,7 @@ function addModal() {
   var method = {}
   var $bounceOverlay = $('<div id="overlay"></div>');
   var $bounceModal = $('<div id="modal"></div>');
-  var $modalContent = $('<div id="content">No JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript YetNo JavaScript Yet</div>');
+  var $modalContent = $('<div id="content"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, </div>');
   var $close = $('<button id="closeBtn">Continue Shopping</button>');
   var $checkout = $('<a href="https://marmot.com/cart" id="checkoutbtn">Checkout</a>');
   var $modalSubtotal = $('<div id="modalSubtotal"></div>');
