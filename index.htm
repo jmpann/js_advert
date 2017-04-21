@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 5: Advanced JavaScript: Objects and Functions</title>
+
+    </head>
+
+    <body>
+        <h1>Section 5: Advanced JavaScript: Objects and Functions</h1>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        <div class="mini-cart-container" data-quantity="6">
+
+<div class="mini-cart-content">
+<div class="mini-cart-header">
+<h3>
+<span class="hide-for-large">Your Cart</span>
+<span class="hide-for-small hide-for-medium show-for-large-up">Item Added to Cart</span>
+<span class="hide-for-large total-items">6 items</span>
+</h3>
+<a class="mini-cart-link-cart primary-link" href="https://marmot.com/cart" title="Go to Cart">Edit Cart</a>
+</div>
+<div class="mini-cart-products">
+
+
+
+
+
+
+
+
+<div class="mini-cart-product">
+  <span class="mini-cart-toggle fa"></span>
+  <div class="mini-cart-image">
+    <a href="http://marmot.com/men-bottoms-pants/verde-pant/889169919046.html">
+
+      <img src="http://s7d2.scene7.com/is/image/marmot/54380_1440_f?$thumb$" alt="Verde Pant, Slate Grey, small" title="Verde Pant, Slate Grey"/>
+
+    </a>
+  </div>
+  <div class="mini-cart-name">
+
+    <a href="http://marmot.com/men-bottoms-pants/verde-pant/889169919046.html" title="Go to Product: Verde Pant">Verde Pant</a>
+  </div>
+<div class="mini-cart-attributes">
+
+
+
+
+<div class="attribute" data-attribute="color">
+  <span class="label">Color</span> -
+  <span class="value">
+    Slate Grey
+  </span>
+</div>
+
+
+  <div class="attribute" data-attribute="size">
+    <span class="label">Size</span> -
+    <span class="value">
+      32
+    </span>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mini-cart-pricing">
+<span class="label">Qty:</span>
+<span class="value">1</span>
+
+<span class="mini-cart-price"> $80.00</span>
+
+</div>
+</div>
+
+
+
+
+<div class="mini-cart-product">
+<span class="mini-cart-toggle fa"></span>
+<div class="mini-cart-image">
+  <a href="http://marmot.com/equipment-tents-6-person-tents/midpines-6p/889169900013.html">
+    <img src="http://s7d2.scene7.com/is/image/marmot/29510_9821_f?$thumb$" alt="Midpines 6P, Orange Spice/Arona, small" title="Midpines 6P, Orange Spice/Arona"/>
+  </a>
+</div>
+
+<div class="mini-cart-name">
+
+<a href="http://marmot.com/equipment-tents-6-person-tents/midpines-6p/889169900013.html" title="Go to Product: Midpines 6P">Midpines 6P</a>
+</div>
+<div class="mini-cart-attributes">
+
+
+
+
+<div class="attribute" data-attribute="color">
+<span class="label">Color</span> -
+<span class="value">
+
+Orange Spice/Arona
+
+</span>
+</div>
+
+
+<div class="attribute" data-attribute="size">
+<span class="label">Size</span> -
+<span class="value">
+
+ONE
+
+</span>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mini-cart-pricing">
+<span class="label">Qty:</span>
+<span class="value">1</span>
+
+<span class="mini-cart-price"> $379.00</span>
+
+</div>
+</div>
+
+
+
+
+<div class="mini-cart-product">
+<span class="mini-cart-toggle fa"></span>
+<div class="mini-cart-image">
+<a href="http://marmot.com/equipment-sleeping-bags-down-sleeping-bags/phase-30/889169898792.html">
+
+<img src="http://s7d2.scene7.com/is/image/marmot/23320_4757_f?$thumb$" alt="Phase 30, Deep Teal/Turf Green, small" title="Phase 30, Deep Teal/Turf Green"/>
+
+</a>
+</div>
+<div class="mini-cart-name">
+
+<a href="http://marmot.com/equipment-sleeping-bags-down-sleeping-bags/phase-30/889169898792.html" title="Go to Product: Phase 30">Phase 30</a>
+</div>
+<div class="mini-cart-attributes">
+
+
+
+
+<div class="attribute" data-attribute="color">
+<span class="label">Color</span> -
+<span class="value">
+
+Deep Teal/Turf Green
+
+</span>
+</div>
+
+
+<div class="attribute" data-attribute="size">
+<span class="label">Size</span> -
+<span class="value">
+
+LZ
+
+</span>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mini-cart-pricing">
+<span class="label">Qty:</span>
+<span class="value">1</span>
+
+<span class="mini-cart-price"> $399.00</span>
+
+</div>
+</div>
+
+
+
+
+<div class="mini-cart-product">
+<span class="mini-cart-toggle fa"></span>
+<div class="mini-cart-image">
+<a href="http://marmot.com/men-tops-hoodies/hayes-hoody/889169922992.html">
+
+<img src="http://s7d2.scene7.com/is/image/marmot/54950_4717_f?$thumb$" alt="Hayes Hoody, Urban Army Heather, small" title="Hayes Hoody, Urban Army Heather"/>
+
+</a>
+</div>
+<div class="mini-cart-name">
+
+<a href="http://marmot.com/men-tops-hoodies/hayes-hoody/889169922992.html" title="Go to Product: Hayes Hoody">Hayes Hoody</a>
+</div>
+<div class="mini-cart-attributes">
+
+
+
+
+<div class="attribute" data-attribute="color">
+<span class="label">Color</span> -
+<span class="value">
+
+Urban Army Heather
+
+</span>
+</div>
+
+
+<div class="attribute" data-attribute="size">
+<span class="label">Size</span> -
+<span class="value">
+
+S
+
+</span>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mini-cart-pricing">
+<span class="label">Qty:</span>
+<span class="value">1</span>
+
+<span class="mini-cart-price"> $95.00</span>
+
+</div>
+</div>
+
+
+
+
+<div class="mini-cart-product">
+<span class="mini-cart-toggle fa"></span>
+<div class="mini-cart-image">
+<a href="http://marmot.com/kids-boys-jackets-waterproof-shells/boys-precip-jacket/785562810563.html">
+
+<img src="http://s7d2.scene7.com/is/image/marmot/50900_001_f?$thumb$" alt="Boy's PreCip Jacket, Black, small" title="Boy's PreCip Jacket, Black"/>
+
+</a>
+</div>
+<div class="mini-cart-name">
+
+<a href="http://marmot.com/kids-boys-jackets-waterproof-shells/boys-precip-jacket/785562810563.html" title="Go to Product: Boy's PreCip Jacket">Boy&#39;s PreCip Jacket</a>
+</div>
+<div class="mini-cart-attributes">
+
+
+
+
+<div class="attribute" data-attribute="color">
+<span class="label">Color</span> -
+<span class="value">
+
+Black
+
+</span>
+</div>
+
+
+<div class="attribute" data-attribute="size">
+<span class="label">Size</span> -
+<span class="value">
+
+L
+
+</span>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mini-cart-pricing">
+<span class="label">Qty:</span>
+<span class="value">1</span>
+
+<span class="mini-cart-price"> $65.00</span>
+
+</div>
+</div>
+
+
+
+
+<div class="mini-cart-product">
+<span class="mini-cart-toggle fa"></span>
+<div class="mini-cart-image">
+<a href="http://marmot.com/women-tops-shirts-and-pullovers/wms-sierra-ls/889169931079.html">
+
+<img src="http://s7d2.scene7.com/is/image/marmot/59210_4619_f?$thumb$" alt="Wm's Sierra LS, Urban Army, small" title="Wm's Sierra LS, Urban Army"/>
+
+</a>
+</div>
+<div class="mini-cart-name">
+
+<a href="http://marmot.com/women-tops-shirts-and-pullovers/wms-sierra-ls/889169931079.html" title="Go to Product: Wm's Sierra LS">Wm&#39;s Sierra LS</a>
+</div>
+<div class="mini-cart-attributes">
+
+
+
+
+<div class="attribute" data-attribute="color">
+<span class="label">Color</span> -
+<span class="value">
+
+Urban Army
+
+</span>
+</div>
+
+
+<div class="attribute" data-attribute="size">
+<span class="label">Size</span> -
+<span class="value">
+
+S
+
+</span>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mini-cart-pricing">
+<span class="label">Qty:</span>
+<span class="value">1</span>
+
+<span class="mini-cart-price"> $85.00</span>
+
+</div>
+</div>
+
+
+
+
+
+
+</div>
+<div class="mini-cart-totals">
+<span class="hide-for-small hide-for-medium show-for-large-up total-items">6 items</span>
+<div class="mini-cart-subtotals">
+
+
+
+<table class="order-totals-table">
+<tbody>
+<tr class="order-subtotal">
+<td>Subtotal</td>
+<td>$1,103.00</td>
+</tr>
+
+
+
+<tr class="order-shipping">
+<td>
+Estimated Shipping
+<!-- Display Shipping Method -->
+
+
+FedEx 3-Day
+
+</td>
+<td>
+
+$0.00
+
+</td>
+</tr>
+
+
+
+
+<tr class="order-sales-tax">
+<td>Sales Tax</td>
+<td>
+
+$0.00
+
+</td>
+</tr>
+
+<tr class="order-total">
+
+
+
+<td>Estimated Total</td>
+<td class="order-value">$1,103.00</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+    </body>
+</html>
