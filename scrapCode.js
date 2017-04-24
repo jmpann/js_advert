@@ -213,3 +213,25 @@ function addElement () {
     $('body').append($bounceOverlay, $bounceModal);
   });
 }
+
+
+
+function collectProductNames(){
+  let productNames = document.querySelectorAll(".mini-cart-name a")
+  let productNamesArray = [...productNames]
+  return productNamesArray.map(function(product){return product.innerText})
+}
+
+function collectImageSrcs(){
+  let images = document.querySelectorAll(".mini-cart-image img")
+  let imagesArray = [...images]
+  return imagesArray.map(function(product){return product.src})
+  //.map returns a new array, but you still need explicit return to return this new array as the value of collectImageSrcs()
+}
+
+
+let productNames
+//let productPrices
+if (numberOfProducts > 0 ){
+  cartSrcLinks = collectImageSrcs()
+  productNames = collectProductNames()
